@@ -4,14 +4,14 @@
       "id": 1,
       "title": "Avengers 4",
       "image": "https://image.tmdb.org/t/p/original/orjiB3oUIsyz60hoEqkiGpy5CeO.jpg",
-      "isWatched": false,
+      "isWatched": true,
       "isFav": false
     },
     {
       "id": 2,
       "title": "Avatar 2",
       "image": "https://filmtopp.imgix.net/media/2021/03/Avatar%201.jpg?s=ac6320a9ae319cbabdb5e65c06a110db",
-      "isWatched": false,
+      "isWatched": true,
       "isFav": false
     },
     {
@@ -46,14 +46,14 @@
       "id": 7,
       "title": "Super Mario",
       "image": "https://m.media-amazon.com/images/I/71gtcZbRlgL.jpg",
-      "isWatched": false,
+      "isWatched": true,
       "isFav": false
     },
     {
       "id": 8,
       "title": "Army of thieves",
       "image": "https://m.media-amazon.com/images/M/MV5BOGVmMTEyZGEtMjM5YS00OWU0LWJlNmMtMTgyNWM3ZGVkM2Y1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-      "isWatched": false,
+      "isWatched": true,
       "isFav": false
     },
     {
