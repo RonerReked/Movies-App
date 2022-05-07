@@ -31,7 +31,7 @@ export class MoviesHomeComponent implements OnInit {
         if (updatedMovie.isWatched) {
           const alreadyWatched = this.watchedMovies.find(movie => movie.id === updatedMovie.id);
           if (alreadyWatched) {
-            alreadyWatched.isFav = updatedMovie.isFav
+            alreadyWatched.isFav = updatedMovie.isFav;
             this.watchedMovies = this.watchedMovies.map((m) => {
               if (m.id === updatedMovie.id) {
                 return updatedMovie;
@@ -43,16 +43,16 @@ export class MoviesHomeComponent implements OnInit {
           }
           this.yetToWatchMovies = this.yetToWatchMovies.filter((m) => m.id !== updatedMovie.id);
         }
-      })
-
+      });
   }
+
   onWatchedClick(movie: Movies): void {
     const payLoadMovie = { ...movie, isWatched: !movie.isWatched };
     payLoadMovie.isFav = payLoadMovie.isWatched ? payLoadMovie.isFav : false;
     this.moviesService.updateMovie(payLoadMovie).subscribe((updatedMovie) => {
       if (updatedMovie.isWatched) {
         this.watchedMovies.push(updatedMovie);
-        this.yetToWatchMovies = this.yetToWatchMovies.filter((m) => m.id !== updatedMovie.id)
+        this.yetToWatchMovies = this.yetToWatchMovies.filter((m) => m.id !== updatedMovie.id);
       } else {
         this.watchedMovies = this.watchedMovies.filter((m) => m.id !== updatedMovie.id);
         this.yetToWatchMovies.push(updatedMovie);

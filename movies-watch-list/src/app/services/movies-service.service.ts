@@ -5,7 +5,7 @@ import { Movies } from '../movies';
 
 const httpOptions = {
   headers: new HttpHeaders({
-    'Content-Type' : 'application/json',
+    'Content-Type': 'application/json',
   })
 }
 @Injectable({
@@ -16,13 +16,18 @@ export class MoviesService {
   private baseApiUrl = 'http://localhost:3000/movies';
   constructor(private http: HttpClient) { }
 
-getMovies(): Observable<Movies[]> {
-  return this.http.get<Movies[]>(this.baseApiUrl);
-}
+  getMovies(): Observable<Movies[]> {
+    return this.http.get<Movies[]>(this.baseApiUrl);
+  }
 
-updateMovie(movie: Movies): Observable<Movies> {
-  const url = `${this.baseApiUrl}/${movie.id}`;
-  return this.http.put<Movies>(url, movie, httpOptions);
-}
+  updateMovie(movie: Movies): Observable<Movies> {
+    const url = `${this.baseApiUrl}/${movie.id}`;
+    return this.http.put<Movies>(url, movie, httpOptions);
+  }
+
+  addMovie(movie: Movies): Observable<Movies> {
+    const url = `${this.baseApiUrl}`;
+    return this.http.post<Movies>(url, movie, httpOptions);
+  }
 
 }
