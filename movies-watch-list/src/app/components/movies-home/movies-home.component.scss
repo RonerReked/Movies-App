@@ -1,9 +1,8 @@
 .to-watch {
-    justify-content: center;    align-items: center;
-    height: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    padding-top: 3%;
 }
 
-.watch-list-wrapper {
-    justify-content: left;
-    align-items: center;
-}

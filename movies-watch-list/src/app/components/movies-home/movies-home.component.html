@@ -6,7 +6,7 @@
             [isWatched]="movie.isWatched" [isFav]="movie.isFav" (favClick)="onFavClick(movie)"
             (watchedClick)="onWatchedClick(movie)"></app-movie-tile>
     </div>
-    <h3 *ngIf="watchedMovies.length">Watched</h3>
+    <h3 *ngIf="watchedMovies.length" class="watchedText">Watched Movies</h3>
     <div class="to-watch">
         <app-movie-tile *ngFor="let movie of watchedMovies" [imageUrl]="movie.image" [id]="movie.id"
             [isWatched]="movie.isWatched" [isFav]="movie.isFav" (favClick)="onFavClick(movie)"
