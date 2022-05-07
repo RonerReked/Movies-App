@@ -1,0 +1,67 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Avengers 4",
+      "image": "https://image.tmdb.org/t/p/original/orjiB3oUIsyz60hoEqkiGpy5CeO.jpg",
+      "isWatched": false,
+      "isFav": true
+    },
+    {
+      "id": 2,
+      "title": "Avatar 2",
+      "image": "https://filmtopp.imgix.net/media/2021/03/Avatar%201.jpg?s=ac6320a9ae319cbabdb5e65c06a110db",
+      "isWatched": true,
+      "isFav": false
+    },
+    {
+      "id": 3,
+      "title": "Black widow",
+      "image": "https://sfanytime-images-prod-http2.secure2.footprint.net/COVERM/COVERM_32e4fc5d-4cbb-4843-8b00-1266f100aa2a_01.jpg?w=375&ar=0.692&fit=crop&fm=pjpg&s=e9248bc2e17e0fda792c11c0b09e2cbf",
+      "isWatched": false,
+      "isFav": true
+    },
+    {
+      "id": 4,
+      "title": "Matrix",
+      "image": "https://sfanytime-images-prod-http2.secure2.footprint.net/COVERM/COVERM_01b80c64-fb55-4739-8e43-e5716261658d_01.jpg?w=375&ar=0.692&fit=crop&fm=pjpg&s=786ea863a6fc08eed8e01fe1729da20d",
+      "isWatched": true,
+      "isFav": false
+    },
+    {
+      "id": 5,
+      "title": "light years",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTVkOTU4MjAtMTE5ZC00NmNiLTg0Y2QtN2RiODYyMmRmMzdmXkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_.jpg",
+      "isWatched": false,
+      "isFav": true
+    },
+    {
+      "id": 6,
+      "title": "No Time To Die",
+      "image": "https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg",
+      "isWatched": false,
+      "isFav": false
+    },
+    {
+      "id": 7,
+      "title": "Super Mario",
+      "image": "https://m.media-amazon.com/images/I/71gtcZbRlgL.jpg",
+      "isWatched": true,
+      "isFav": false
+    },
+    {
+      "id": 8,
+      "title": "Army of thieves",
+      "image": "https://m.media-amazon.com/images/M/MV5BOGVmMTEyZGEtMjM5YS00OWU0LWJlNmMtMTgyNWM3ZGVkM2Y1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "isWatched": true,
+      "isFav": true
+    },
+    {
+      "id": 9,
+      "title": "Finch",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTMxYjk3MmItMzk1OC00NmRhLThlMjYtNmQyNzA0MzgxMWI2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
+      "isWatched": true,
+      "isFav": false
+    }
+  ]
+}
