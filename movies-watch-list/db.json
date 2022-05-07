@@ -4,8 +4,8 @@
       "id": 1,
       "title": "Avengers 4",
       "image": "https://image.tmdb.org/t/p/original/orjiB3oUIsyz60hoEqkiGpy5CeO.jpg",
-      "isWatched": true,
-      "isFav": false
+      "isWatched": false,
+      "isFav": true
     },
     {
       "id": 2,
@@ -25,21 +25,21 @@
       "id": 4,
       "title": "Matrix",
       "image": "https://sfanytime-images-prod-http2.secure2.footprint.net/COVERM/COVERM_01b80c64-fb55-4739-8e43-e5716261658d_01.jpg?w=375&ar=0.692&fit=crop&fm=pjpg&s=786ea863a6fc08eed8e01fe1729da20d",
-      "isWatched": false,
+      "isWatched": true,
       "isFav": false
     },
     {
       "id": 5,
       "title": "light years",
       "image": "https://m.media-amazon.com/images/M/MV5BOTVkOTU4MjAtMTE5ZC00NmNiLTg0Y2QtN2RiODYyMmRmMzdmXkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_.jpg",
-      "isWatched": true,
-      "isFav": false
+      "isWatched": false,
+      "isFav": true
     },
     {
       "id": 6,
       "title": "No Time To Die",
       "image": "https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg",
-      "isWatched": true,
+      "isWatched": false,
       "isFav": false
     },
     {
@@ -54,7 +54,7 @@
       "title": "Army of thieves",
       "image": "https://m.media-amazon.com/images/M/MV5BOGVmMTEyZGEtMjM5YS00OWU0LWJlNmMtMTgyNWM3ZGVkM2Y1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
       "isWatched": true,
-      "isFav": false
+      "isFav": true
     },
     {
       "id": 9,
@@ -62,20 +62,6 @@
       "image": "https://m.media-amazon.com/images/M/MV5BZTMxYjk3MmItMzk1OC00NmRhLThlMjYtNmQyNzA0MzgxMWI2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
       "isWatched": true,
       "isFav": false
-    },
-    {
-      "isFav": false,
-      "isWatched": false,
-      "image": "test",
-      "title": "test",
-      "id": 30913
-    },
-    {
-      "isFav": false,
-      "isWatched": false,
-      "image": "f",
-      "title": "f",
-      "id": 17364
     }
   ]
 }
