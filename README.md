@@ -8,3 +8,6 @@ This application is written in typescript using angular framework.
 db.json is database that holds the films.
 
 Can probably add onClick on the images to redirect to open up movie if u have it locally
+
+
+![image](https://user-images.githubusercontent.com/12135734/167264848-290e68e6-0111-45a5-a4fd-95df47b07ceb.png)
